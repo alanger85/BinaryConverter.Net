@@ -6,7 +6,7 @@ namespace BinaryConverter
     {
         public static T DeserializeObject<T>(byte[] buf)
         {
-            return Deserializer.DeserializeObject<T>(buf);
+            return Deserializer.DeserializeObject<T>(buf);  
         }
 
         public static byte[] SerializeObject<T>(T value)
